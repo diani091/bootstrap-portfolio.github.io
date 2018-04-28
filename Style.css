@@ -1,0 +1,125 @@
+body {
+    margin:0;
+  }
+  
+  .ancho{
+      margin-right: 10%;
+      margin-left: 15%;
+      width:960px;
+    
+  }
+  .header {
+    overflow: hidden;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+  }
+  /* So hard!!! */
+  .header a {
+    float: right;
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding-top: 62px;
+    padding-left: 8px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .header p {
+      background-color:#0c2927;
+      color: #ffffff;
+      font-family:'Times New Roman', Times, serif;
+      float: left;
+    display: inline;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom:0px;
+    width: 130px;
+    height: 35px;
+  
+  }
+  
+  .main {
+    background-color:#ffffff;
+    padding: 20px;
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 20%;
+    height: 450px;
+    width: 960px;
+    color: #0c2927;
+  }
+  
+  .yo {
+    margin-top: 75px;
+    float:left;
+    padding-right: 20px;
+    padding-bottom: 10px;
+  }
+  
+  .about {
+    color: #777777;
+    border-top: 2px solid #ccc;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    padding-top: 10px;
+
+  }
+  
+  .image
+  {
+    display:block;
+    margin-top: 20px;
+    margin-left: 20px;
+
+  }
+  
+  .image-text{
+    opacity: .8;
+    color: #ffffff;
+    background-color:#0c2927;
+    font-family:'Roboto', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    margin-top: -60px;
+    padding:20px;
+  }
+  
+  .table{
+  border-top: 2px solid #ccc;
+  
+  }
+  
+  .button{
+    background-color: #0c2927;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:10px;
+  }
+  
+  .form-n{
+  width: 90%;
+  height: 10%;
+  }
+  .form-e{
+  width: 90%;
+  height: 10%;
+  }
+  .form-m{
+  width: 80%;
+  }
+  .col {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 0;
+    max-width: 100%;
+}
